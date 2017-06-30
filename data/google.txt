@@ -18,7 +18,7 @@
 140 Word Break II 19.7% Hard
 146 LRU Cache 15.8% Hard
 155 Min Stack 22.0% Easy
-158 Read N Characters Given Read4 II – Call multiple times 23.4% Hard
+158 Read N Characters Given Read4 II â€“ Call multiple times 23.4% Hard
 159 Longest Substring with At Most Two Distinct Characters 34.7% Hard
 162 Find Peak Element 33.0% Medium
 163 Missing Ranges 29.2% Medium
@@ -65,7 +65,7 @@
 298 Binary Tree Longest Consecutive Sequence 36.9% Medium
 302 Smallest Rectangle Enclosing Black Pixels 39.0% Hard
 305 Number of Islands II 34.0% Hard
-308 Range Sum Query 2D – Mutable 21.6% Hard
+308 Range Sum Query 2D â€“ Mutable 21.6% Hard
 309 Best Time to Buy and Sell Stock with Cooldown 36.6% Medium
 310 Minimum Height Trees 26.6% Medium
 312 Burst Balloons 36.4% Hard

@@ -133,10 +133,19 @@ def readData(filename):
 	print('Finished processing company {}'.format(companyName))
 	return [companyName, problemList, problemSet]
 
+def getAllFiles(dir_path):
+	files = []
+	for f in os.listdir(dir_path):
+		if os.path.isfile(os.path.join(dir_path,f)):
+			if not f.startswith('.'):
+				files.append(os.path.join(dir_path,f))
+	return files
+
 CURRENTPATH = os.getcwd()
-DATADIRECTORYPATH = CURRENTPATH + '\data'
-COMPANYFILES = [os.path.join(DATADIRECTORYPATH,f) for f in os.listdir(DATADIRECTORYPATH) if os.path.isfile(os.path.join(DATADIRECTORYPATH,f)) ]
-SOLVEDPROBLEMFILE = CURRENTPATH + '\solved.txt'
+DATADIRECTORYPATH = os.path.join(CURRENTPATH, 'data')
+#remember you need to ignore any files that start with . or is a directory 
+COMPANYFILES = getAllFiles(DATADIRECTORYPATH)
+SOLVEDPROBLEMFILE = os.path.join(CURRENTPATH, 'solved.txt')
 
 readAllCompanyData(COMPANYFILES)
 readSolvedProblems(SOLVEDPROBLEMFILE)

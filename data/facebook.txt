@@ -39,7 +39,7 @@
 139 Word Break 25.2% Medium
 146 LRU Cache 15.8% Hard
 157 Read N Characters Given Read4 29.5% Easy
-158 Read N Characters Given Read4 II – Call multiple times 23.4% Hard
+158 Read N Characters Given Read4 II â€“ Call multiple times 23.4% Hard
 161 One Edit Distance 28.4% Medium
 168 Excel Sheet Column Title 21.6% Easy
 173 Binary Search Tree Iterator 34.5% Medium
@@ -48,7 +48,7 @@
 208 Implement Trie (Prefix Tree) 25.3% Medium
 209 Minimum Size Subarray Sum 26.8% Medium
 210 Course Schedule II 21.0% Medium
-211 Add and Search Word – Data structure design 20.2% Medium
+211 Add and Search Word â€“ Data structure design 20.2% Medium
 215 Kth Largest Element in an Array 33.1% Medium
 218 The Skyline Problem 22.0% Hard
 221 Maximal Square 23.5% Medium
